@@ -16,6 +16,8 @@ def caesar_decrypt_with_keylist(text, key_list):
     inverse_key_list = [-k for k in key_list]
     return caesar_encrypt_with_keylist(text, inverse_key_list)
 
+# Formula = (P + K) mod 26.
+
 
 # Example usage
 plain_text = "Secure Message!"
